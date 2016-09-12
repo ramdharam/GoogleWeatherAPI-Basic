@@ -1,0 +1,80 @@
+html {
+  height: 100%;
+}
+body {
+  height: 100%;
+  margin: 0;
+}
+#map-canvas {
+   margin: 0;
+   padding: 0;
+   height: 300px;
+   max-width: 100%;
+}
+
+#map-canvas img {
+  // max-width: none !important;
+}
+
+.page-header {
+	font-family: "Times New Roman";
+	text-align: center;
+	font-size: 32px;
+	color: #00aced;
+	padding-top: 15px;
+
+}
+
+.address-input-division {
+	padding-left: 100px;
+	//padding-right: 10px;
+}
+
+input {
+	margin: 5px;
+}
+
+#address-input {
+	position: relative;
+	left : 20px;
+}
+
+.form1{
+	//border: 5px;
+	color: 'black';
+	border-width: 2px;
+}
+
+#weather {
+	position: absolute;
+	left: 400px;
+
+}
+
+
+#temp {
+	position: absolute;
+	left: 700px;
+
+}
+
+#humidity{
+	position: absolute;
+	left: 1000px;
+}
+
+#sunrise {
+	position: absolute;
+	left: 400px;
+}
+
+#sunset {
+	position: absolute;
+	left: 700px;
+}
+
+h3 {
+	text-align: center;
+	font-weight: normal;
+	color: #00aced;
+}

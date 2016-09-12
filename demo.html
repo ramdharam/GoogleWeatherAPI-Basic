@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html>
+	<head>	
+	<meta charset="utf-8">
+	<title> Weather Updates</title>
+	<link rel="stylesheet" type="text/css" href="mapStyle.css">
+	<script type="text/javascript" src="https://maps.googleapis.com/maps/api/js?"></script>
+	<script type="text/javascript" src="map.js"></script>
+	<script type="text/javascript" src="https://code.jquery.com/jquery-1.12.4.min.js"></script>
+	
+	
+	</head>
+
+	<body>
+	
+	<p class="page-header"> Current Weather</p>
+
+	<h3 style="visibility:hidden" id="currentDate">Date</h3>
+
+<form class="form1" onsubmit="searchAddress(); return false; ">
+	 <div class="address-input-division">
+	 	<label>City</label>
+	 	<input type="textbox"  id="address-input" required />
+		
+	 	<label style="visibility:hidden" id="weather">Weather: </label>
+	 	<label style="visibility:hidden" id="temp">Temperature: </label>
+	 	<label style="visibility:hidden" id="humidity">Humidity: </label>
+	 	
+	 		
+	 	<br/>
+	 	<label>Country</label><input type="textbox"  id="country-input" required />
+
+	 	<label style="visibility:hidden" id="sunrise">Sunrise: </label>
+	 	<label style="visibility:hidden" id="sunset">Sunset: </label> 
+			
+		 <br/>
+		<input type ="submit" value="Weather" id="submit"/>
+	 </div>
+	 
+</form>
+
+<div id="map-canvas"></div>
+
+	</body>
+</html>
